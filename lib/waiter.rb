@@ -12,7 +12,7 @@ attr_accessor :name, :years_of_experience
     @@all
   end
 
-  def new_meal(customer, self, total, tip = 0)
-    Meal.New(customer, self, total, tip = 0)
+  def new_meal(customer, total, tip = 0)
+    Meal.New(customer, self, total, tip)
   end
 end
