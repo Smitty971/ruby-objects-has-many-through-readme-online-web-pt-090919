@@ -20,4 +20,6 @@ attr_accessor :name, :years_of_experience
     Meal.all.select do |meal|
       meal.waiter == self
     end
+  end
+  
 end
