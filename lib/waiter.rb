@@ -28,5 +28,6 @@ attr_accessor :name, :years_of_experience
     end
 
     best_tipped_meal.customer
+  end
 
 end
